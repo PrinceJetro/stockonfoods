@@ -1,0 +1,59 @@
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer .headers{
+    color: white;
+    font-family: "Abril Fatface", serif; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 20px 0px;
+}
+
+footer .first img{
+    width: 100%;
+    height:auto;
+    margin-bottom: 10px;
+}
+
+footer .first h1{
+    color: rgb(102, 102, 102);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+footer .first h2{
+    color: rgb(205, 49, 49);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+footer .hrs .days{
+    color: rgb(102, 102, 102);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+footer .hrs .time{
+    color: rgb(205, 49, 49);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+footer .popular_dish img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer .stream img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}

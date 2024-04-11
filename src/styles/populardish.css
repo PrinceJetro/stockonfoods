@@ -1,0 +1,101 @@
+.populardish_container .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+.populardish_header{
+  font-family: "Abril Fatface", serif; 
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 5px;
+}
+
+.populardish_headerP{
+    color: rgb(205, 49, 49);
+    font-family: "Niconne", cursive;
+    font-size: 25px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.populardish_intro{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: rgb(211, 211, 211);
+  line-height: 30.4px;
+  margin-block-end: 32px;
+}
+ .populardish_container{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .populardish_container{
+    border: 0.5px solid grey;
+    border-radius: 20px;
+  }
+}
+  .populardish_container  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .populardish_container  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .populardish_container  .column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .populardish_container .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .populardish_container .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .populardish_container  .row {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .populardish_container  .image-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.populardish_container .image-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: aliceblue;
+}

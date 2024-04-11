@@ -1,0 +1,119 @@
+.services_intro .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.services_intro .left  h1{
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 75px;
+    margin-bottom: 50px;
+    
+}
+
+.services_intro .left h1 span{
+    color: #cd3131;
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.services_intro .left img{
+    width: 50%;
+}
+
+.services_intro .right{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+}
+
+
+.services_intro .right .inner .firstp{
+    font-family: "Abril Fatface", serif; 
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.services .tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(205, 49, 49);
+}
+
+.services .tab h1{
+    color: white;
+    font-family: "Abril Fatface", serif; 
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.services .tab h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+.service_column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .service_column img{
+    height: 300px;
+  }
+  .service_column h2{
+    font-family: "Abril Fatface", serif; 
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 10px 0px;
+  }
+  .service_column p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: black;
+  }
+  @media screen and (max-width: 650px) {
+    .service_column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
